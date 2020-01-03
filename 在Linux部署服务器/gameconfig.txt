@@ -1,0 +1,42 @@
+[mysqlconfig]
+dbip = 192.168.11.221
+dbuser = chengxuzu
+dbpass = morfirtech@chengxuzu
+dbport = 5853
+dbname = game_37wan
+dataname = game_data_37wan
+dbbackname = game_back
+logname = gamelog
+dballname = game_37wan2
+dbglobalname = game_37wan
+
+[server]
+serverconfig = [{'server-name':'Game1','server-id':3,'server-web':'public','server-web-id':100,'group-id':1,'server-type':3}]
+
+[global]
+openservertime = 2019-12-12 1:00:00
+agent = 37
+gamename = xiaoao
+language = cn
+server_type = 1
+
+[mina]
+minaport = 11777
+
+[innerserver]
+connectport= 17277
+connectip= 192.168.51.104
+
+[innerclient]
+serverid = 1
+serverip = 192.168.51.104
+serverport = 9711
+servertype = 2
+
+[httpserver]
+serverport = 9188
+
+[public]
+dbname = public
+dataname = game_data_37wan
+

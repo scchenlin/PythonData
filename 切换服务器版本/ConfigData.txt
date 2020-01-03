@@ -1,0 +1,46 @@
+[mysql]
+dbip = 192.168.51.104
+dbuser = root
+dbpass = root
+dbport = 3306
+dbname = game
+pdbname = public
+dataname = game_data
+dbbackname = game_back
+dballname = game
+dbglobalname = game
+logname = gamelog
+
+[httpserver]
+serverport = 9288
+
+[innerclient]
+serverid = 1
+serverip = 192.168.51.105
+serverport = 9811
+servertype = 2
+
+[innerserver]
+connectport= 13398
+connectip= 192.168.51.105
+
+[minaserver]
+minaport = 7277
+
+[server]
+sconfig = [{'server-name':'Game1','server-id':1,'group-id':1},{'server-name':'Game2','server-id':2,'group-id':2},{'server-name':'Neutral','server-id':0,'group-id':0}]
+fconfig = [{'server-name':'Game1','server-id':3,'server-web':'public','server-web-id':100,'group-id':1,'server-type':3}]
+pconfig = [{'server-name':'PublicGame','server-id':1,'server-web':'37public','server-web-id':101,'group-id':0,'server-type':2}]
+
+[global]
+dirStr = E:/xiaoao_temp/temp_code/
+Game_Logic = Game_Logic
+Game_Public = Game_Public
+opentime = 2019-12-12 1:00:00
+agent = 37
+gamename = xiaoao
+language = cn
+
+
+
+
